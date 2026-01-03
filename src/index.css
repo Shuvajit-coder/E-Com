@@ -18,15 +18,6 @@ body {
   width: 40px;
   margin: 1px;
 }
-/* .category-scroll::-webkit-scrollbar {
-  height: 0;
-  display: none;
-}
-
-.category-scroll {
-  -ms-overflow-style: none; /* IE / Edge */
-  /* scrollbar-width: none; /* Firefox */
- */ */
 
 #root {
   width: 100%;
