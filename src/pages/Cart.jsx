@@ -51,7 +51,7 @@ const Cart = ({ location, getLocation }) => {
                     <div className="bg-red-500 text-white flex gap-4 p-2 rounded-md font-bold text-xl">
                       <button
                         onClick={() =>
-                          updateQuantity(cartItem, item.id, "decrease")
+                          updateQuantity( item.id, "decrease")
                         }
                         className="cursor-pointer"
                       >
@@ -60,7 +60,7 @@ const Cart = ({ location, getLocation }) => {
                       <span>{item.quantity}</span>
                       <button
                         onClick={() =>
-                          updateQuantity(cartItem, item.id, "increase")
+                          updateQuantity( item.id, "increase")
                         }
                         className="cursor-pointer"
                       >
