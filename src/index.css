@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+/* clerk user button */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.cl-avatarBox{
+  width: 3rem;
+  height:3rem
+}
+.arrows{
+  height: 40px;
+  width: 40px;
+  margin: 1px;
+}
+/* .category-scroll::-webkit-scrollbar {
+  height: 0;
+  display: none;
+}
+
+.category-scroll {
+  -ms-overflow-style: none; /* IE / Edge */
+  /* scrollbar-width: none; /* Firefox */
+ */ */
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+input{
+  background-color: white;
+  accent-color: red;
+  border: 1px solid white;
+  color: #333;
+}
+/* Hide scrollbar but keep scroll functionality */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
