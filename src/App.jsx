@@ -56,6 +56,7 @@ function App() {
          <Route path='/category/:category' element={<CategoryProduct/>}></Route> 
          <Route path='/about' element={<About/>}></Route>
          <Route path='/contact' element={<Contact/>}></Route>
+         
          <Route path='/cart' element={<ProtectedRoute><Cart location={location} getLocation={getLocation}/></ProtectedRoute>}></Route>
        </Routes>
        <Footer/>
